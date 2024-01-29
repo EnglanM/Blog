@@ -11,10 +11,17 @@ body {
   font-family: "Lora", serif;
 }
 
-h1,
+h1 {
+  font-family: "Candal", serif;
+  color: #eea47f;
+  margin: 5px;
+}
 h2,
+h4 {
+  font-family: "Candal", serif;
+  margin: 5px;
+}
 h3,
-h4,
 h5,
 h6 {
   font-family: "Candal", serif;
@@ -35,7 +42,7 @@ a {
 
 .btn {
   padding: 0.5rem 1rem;
-  background: #006669;
+  background: #01539d;
   color: white;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -50,7 +57,7 @@ a {
 
 .btn:hover {
   color: white !important;
-  background: #005255;
+  background: #eea47f;
 }
 
 .text-input {
@@ -72,6 +79,7 @@ a {
   padding: 8px;
   border-radius: 5px;
   list-style: none;
+  text-align: center;
 }
 
 .success {
@@ -89,7 +97,7 @@ a {
 /* NAVBAR */
 
 header {
-  background: #008489;
+  background: #01539d;
   height: 66px;
 }
 
@@ -109,7 +117,7 @@ header .logo-text {
 }
 
 header .logo-text span {
-  color: #05f7ff;
+  color: #eea47f;
 }
 
 header ul {
@@ -148,7 +156,7 @@ header ul li ul li a {
 }
 
 header ul li ul li a.logout {
-  color: red;
+  color: #eea47f;
 }
 
 header ul li ul li a:hover {
@@ -163,7 +171,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  background: #006669;
+  background: #eea47f;
   transition: 0.5s;
 }
 
@@ -176,7 +184,7 @@ header .menu-toggle {
 }
 
 .page-wrapper a:hover {
-  color: #006669;
+  color: #eea47f;
 }
 
 /* POST SLIDER */
@@ -195,7 +203,7 @@ header .menu-toggle {
   top: 50%;
   right: 30px;
   font-size: 2em;
-  color: #006669;
+  color: #01539d;
   cursor: pointer;
 }
 
@@ -204,7 +212,7 @@ header .menu-toggle {
   top: 50%;
   left: 30px;
   font-size: 2em;
-  color: #006669;
+  color: #01539d;
   cursor: pointer;
 }
 
@@ -223,7 +231,7 @@ header .menu-toggle {
   display: inline-block;
   background: white;
   border-radius: 5px;
-  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+  box-shadow: 1rem 1rem 1rem -1rem #01539d;
 }
 
 .post-slider .post-wrapper .post .post-info {
@@ -299,14 +307,14 @@ header .menu-toggle {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  border: 1px solid #006669;
+  border: 1px solid #01539d;
   background: transparent;
   border-radius: 0px;
-  color: #006669 !important;
+  color: #01539d !important;
 }
 
 .content .main-content .post .read-more:hover {
-  background: #006669;
+  background: #eea47f;
   color: white !important;
   transition: 0.25s;
 }
@@ -339,7 +347,7 @@ header .menu-toggle {
 }
 
 .content .sidebar .section {
-  background: white;
+  background: #3f79ab;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -401,7 +409,7 @@ header .menu-toggle {
 /* FOOTER */
 
 .footer {
-  background: #303036;
+  background: #01539d;
   color: #d3d3d3;
   height: 400px;
   position: relative;
@@ -423,7 +431,7 @@ header .menu-toggle {
 }
 
 .footer .footer-content .about h1 span {
-  color: #05f7ff;
+  color: #eea47f;
 }
 
 .footer .footer-content .about .contact span {
@@ -433,7 +441,7 @@ header .menu-toggle {
 }
 
 .footer .footer-content .about .socials a {
-  border: 1px solid gray;
+  border: 1px solid #eea47f;
   width: 45px;
   height: 41px;
   padding-top: 5px;
@@ -447,7 +455,7 @@ header .menu-toggle {
 
 .footer .footer-content .about .socials a:hover {
   border: 1px solid white;
-  color: white;
+  color: #eea47f;
   transition: all 0.3s;
 }
 
@@ -484,8 +492,8 @@ header .menu-toggle {
 }
 
 .footer .footer-bottom {
-  background: #343a40;
-  color: #686868;
+  background: #01539d;
+  color: #ffffff;
   height: 50px;
   width: 100%;
   text-align: center;
@@ -584,7 +592,7 @@ header .menu-toggle {
   }
 
   header ul li ul li a:hover {
-    background: #006669;
+    background: #01539d;
   }
 
   header ul li ul li a.logout {

@@ -3,14 +3,13 @@
     <div class="footer-content">
 
       <div class="footer-section about">
-        <h1 class="logo-text"><span>Awa</span>Inspires</h1>
-        <p>
-          AwaInspires is a fictional blog conceived for the purpose of a tutorial on YouTube.
-          However, Awa has a blog called pieceofadvice.org where he writes truly inspiring stuff.
-        </p>
+        <h1 class="logo-text"><span>Avllaj</span>News</h1>
+        <p>Avllaj News, your go-to source for the latest and most comprehensive news coverage from everyday life in Albania.
+          We strive to deliver timely and accurate information, offering a unique perspective on local events, 
+           cultural developments, and societal trends.  </p>
         <div class="contact">
-          <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
-          <span><i class="fas fa-envelope"></i> &nbsp; info@awainspires.com</span>
+          <span><i class="fas fa-phone"></i> &nbsp; 0684434239</span>
+          <span><i class="fas fa-envelope"></i> &nbsp; aavllaj@epoka.edu.al</span>
         </div>
         <div class="socials">
           <a href="#"><i class="fab fa-facebook"></i></a>
@@ -58,7 +57,7 @@
     </div>
 
     <div class="footer-bottom">
-      &copy; codingpoets.com | Designed by Awa Melvine
+      &copy; Designed by Alban Avllaj & Englan Muca
     </div>
   </div>
   <!-- // footer -->

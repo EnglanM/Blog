@@ -23,7 +23,7 @@ function loginUser($user)
     $_SESSION['id'] = $user['id'];
     $_SESSION['username'] = $user['username'];
     $_SESSION['admin'] = $user['admin'];
-    $_SESSION['message'] = 'You are now logged in';
+    $_SESSION['message'] = 'Logged in successfully';
     $_SESSION['type'] = 'success';
 
     if ($_SESSION['admin']) {
